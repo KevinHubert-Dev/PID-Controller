@@ -1,7 +1,21 @@
 # PID-Project
-Udacity - Self-Driving Car Engineer Nanodegree Program
+In this project i've implemented a so-called PID-controller for the Udacity - Self-Driving Car Engineer Nanodegree Program.
+The PID-Controller uses the proportion, derivation and integral to reduce the so called crosstrack-error and can be used for algorithms which return a single error-value for one or more coefficients.
+
+The result then was used in a simulator provided by Udacity to drive a virtual car on a track as shown here:
+![too_high_p_coefficient](./img/good_p_d.gif)
 
 ---
+
+## How to build (Linux)
+
+1. Clone this repository
+2. Navigate into the "CarND-PID-Control-Project"-folder
+3. Run `./install-ubuntu.sh`
+4. Navigate into the "build" folder
+5. Run `cmake ..`
+6. Run `make`
+
 
 ## Dependencies
 
@@ -27,14 +41,6 @@ Udacity - Self-Driving Car Engineer Nanodegree Program
 * Simulator. You can download these from the [project intro page](https://github.com/udacity/self-driving-car-sim/releases) in the classroom.
 
 
-## How to build (Linux)
-
-1. Clone this repository
-2. Navigate into the "CarND-PID-Control-Project"-folder
-3. Run `./install-ubuntu.sh`
-4. Navigate into the "build" folder
-5. Run `cmake ..`
-6. Run `make`
 
 Additional tips/tricks from udacity for setting up your environment can be found [here](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/23d376c7-0195-4276-bdf0-e02f1f3c665d)
 
